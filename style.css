@@ -1,0 +1,182 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.grid-container
+{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+background-color: rgb(255, 255, 255);
+width: 100%;
+height: 100%;
+
+}
+.header-container{
+    display: flex;
+   
+    width: 100%;
+    height: 54px;
+    padding: 0 57px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:1 ;
+    grid-row-end:2 ;
+}
+
+.logo{
+width: 108px;
+height: 23px;
+padding: 16px 6px 16px 10px;
+margin: -3px 0 0;
+}
+.left-container{
+    display: flex;
+    
+}
+.menu-list{
+    display: flex;
+    list-style-type: none;
+    padding: 0px px 0px 2px;
+    font-weight: 100;
+}
+button{
+    background-color: transparent;
+    width: auto;
+    border-color: transparent;
+}
+.left-container{
+    margin-left: 200px;
+}
+.content{
+    background-color: rgb(255, 255, 255);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:2 ;
+    grid-row-end:3 ;
+}
+.footer{
+    background-color:yellow ;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:3 ;
+    grid-row-end:4 ;
+}
+.item1{
+    background-image: url("microimages/Highlight-Test-Surface-Pro-9-Platinum-Attract_VP4-1399x600.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 545px;
+    text-align: left;
+    position:relative;
+    
+}
+.text-on-image{
+    background-color: white;
+    width: 476px;
+    height: 215px;
+    padding: 48px;
+    position:absolute;
+    margin:84px 0px 0px 80px
+    
+    
+
+}
+ul{
+    list-style-type: none;
+    
+}
+li{
+    padding: 8px 0px;
+    font-size: 11px;
+}
+.first{
+    display: flex;
+    
+}
+
+.second1{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 76px 16px;
+    
+}
+.footer{
+    padding: 36px 76px 0 76px;
+    color: #616161;
+    background-color: #f2f2f2;
+}
+.main{
+    width: 228px;
+    height: 316px;
+}
+.windows-content{
+    display:flex;
+    padding: 0 76px;
+    margin-left: 2%;
+    margin-top: 8%;
+    margin-bottom:  50px;
+    
+    
+    
+}
+.icon-text{
+    display: flex;
+    margin: 0 0 16;
+    align-items: center;
+    color: #0067b8;
+    text-decoration: underline;
+}
+.windows-item{
+   margin-right: 60px;
+   font-size: 16px;
+}
+.images-with-text{
+    display:flex;
+    margin:20px 50px;
+    padding-left:10px;
+}
+.colo1{
+    width: 339px;
+    height: 578px;
+    
+}
+
+.image-big{
+    background-image: url("microimages/Highlight-Slim-Multi-Canvas-AEM-PC-Game-Pass-Expansion_VP5-1596x600.jpg");
+   width:1350px;
+   height:514px ;
+    margin-left: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    position: relative;
+    
+}
+.big-image-text{
+    width: 512px;
+    height: 295px;
+    padding-left: 10%;
+    padding-top: 20%;
+    
+    
+}
+.image-big2{
+    background-image: url("microimages/Highlight-Inclusion-is-Innovation-International-Womens-Day-illustration_VP5-1596x600.avif");
+    width:1350px;
+    height:514px ;
+     margin-left: 80px;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     
+     position: relative;
+}
+.social-links{
+    margin-top: 30px;
+    margin-left: 30px;
+   margin-bottom: 30px;
+   align-content: center;
+}
